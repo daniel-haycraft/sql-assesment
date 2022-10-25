@@ -259,8 +259,8 @@ module.exports = {
         where l.country_id = b.country_id;`)
         .then(dbRes => res.status(200).send(dbRes[0]))
         .catch(err => console.log(err))
-    },
-    deleteCity: (req, res) => {
-        
     }
+    // deleteCity: (req, res) => {
+        
+    // }
 }
